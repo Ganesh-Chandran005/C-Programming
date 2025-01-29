@@ -17,6 +17,8 @@ int main(){
       break;
     case '%': printf("Remainder:%d",num1%num2);
       break;
+    default:printf("INvalid operation");
+      break;
   }
   return 0;
 }
