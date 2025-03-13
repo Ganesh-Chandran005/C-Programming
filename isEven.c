@@ -8,7 +8,7 @@ int main(){
     if(check==1){
         printf("%d is Even.");
     }
-    else{
+    else if(check==0){
         printf("%d is Odd.");
 }
 }
