@@ -13,7 +13,7 @@ int main(){
 			scanf("%d",(*(matrix+i)+j));
 		}
 	}
-	printf("\nMatrix: ");
+	printf("\nMatrix:\n ");
 	for(int i=0;i<rows;i++){
 		printf("\t|\t");
 		for(int j=0;j<cols;j++){
